@@ -1,0 +1,149 @@
+body {
+    background-color: white;
+    color: #4B4949;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 60px;
+    color: white;
+    font-weight: 1100;
+}
+
+h2 {
+    font-family: "Montserrat";
+    color: #4B4949;
+    font-weight: 900;
+    text-align: left;
+    font-size: 35px;
+}
+
+h3 {
+    font-family: "Montserrat";
+    color: #134A70;
+    font-weight: 700;   
+    text-align: left;
+    font-size: 22px;
+}
+
+.banner {
+    padding: 150px 0;
+    margin: 0;
+    background-image: url("images/36634-g0ph7kqjyc-swhr.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#banner-p {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.btn-blue1 {
+    background-color: #134A70;
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 20px 50px;
+    font-weight: 600;
+    border-radius: 3px;
+    font-family: "Montserrat";
+}
+
+.btn-blue2 {
+    background-color: #134A70;
+    color: white;
+    text-decoration: none;
+    padding: 20px 50px;
+    font-weight: 600;
+    border-radius: 3px;
+    font-family: "Montserrat";
+    display: inline-block;
+    margin: 20px 0;
+    position: absolute;
+    bottom: 10px;
+    left: 58px;
+}
+
+.container {
+    margin: 50px auto;
+    width: 1200px;
+}
+
+.card-white {
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+}
+
+.card-white p{
+    margin-bottom: 165px;
+}
+
+.card-white-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}   
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+div {
+    display: block;
+}
+
+.btn-blue1:hover {
+    background-color: white;
+    color: #134A70;
+}    
+
+.btn-blue2:hover {
+    background-color: rgb(47, 181, 225);
+    color: #ffffff;
+} 
+
+.container-btn{
+    margin: 10px auto;
+    width: 900px;
+}
+
+.footer{
+    background-color: #134A70;
+    color: white;
+    padding: 80px 0;
+}
+
+/* breaking points */
+
+@media (max-widht: 900px) {
+    .cards {
+      grid-template-columns: 1fr 1fr; 
+    }
+    .container {
+      width: 700px;
+    } 
+    
+  }
+  
+  @media (max-widht: 480px) {
+    .cards {
+      grid-template-columns: 1fr; 
+    }
+    .container {
+      width: 250px;
+    } 
+  }    
